@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1753606279359" clover="3.2.0">
+  <project timestamp="1753606279359" name="All files">
+    <metrics statements="46" coveredstatements="43" conditionals="19" coveredconditionals="11" methods="10" coveredmethods="7" elements="75" coveredelements="61" complexity="0" loc="46" ncloc="46" packages="1" files="2" classes="2"/>
+    <file name="HomeLoanCalculator.tsx" path="/Users/n3rdartiste/Documents/development-projects/ai-code/src/routes/HomeLoanCalculator/HomeLoanCalculator.tsx">
+      <metrics statements="44" coveredstatements="41" conditionals="19" coveredconditionals="11" methods="9" coveredmethods="6"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="35" count="26" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="48" count="20" type="stmt"/>
+      <line num="49" count="20" type="stmt"/>
+      <line num="50" count="20" type="stmt"/>
+      <line num="51" count="20" type="stmt"/>
+      <line num="52" count="20" type="stmt"/>
+      <line num="53" count="20" type="stmt"/>
+      <line num="54" count="20" type="stmt"/>
+      <line num="55" count="20" type="stmt"/>
+      <line num="67" count="20" type="stmt"/>
+      <line num="68" count="20" type="stmt"/>
+      <line num="69" count="20" type="stmt"/>
+      <line num="70" count="20" type="stmt"/>
+      <line num="72" count="20" type="stmt"/>
+      <line num="74" count="20" type="stmt"/>
+      <line num="76" count="20" type="cond" truecount="2" falsecount="0"/>
+      <line num="78" count="20" type="cond" truecount="4" falsecount="2"/>
+      <line num="81" count="20" type="cond" truecount="2" falsecount="0"/>
+      <line num="85" count="20" type="stmt"/>
+      <line num="87" count="20" type="stmt"/>
+      <line num="88" count="2" type="stmt"/>
+      <line num="89" count="2" type="stmt"/>
+      <line num="90" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="97" count="20" type="stmt"/>
+      <line num="98" count="18" type="stmt"/>
+      <line num="101" count="20" type="stmt"/>
+      <line num="113" count="20" type="stmt"/>
+      <line num="139" count="0" type="stmt"/>
+      <line num="140" count="0" type="cond" truecount="0" falsecount="1"/>
+    </file>
+    <file name="ResultsSummary.tsx" path="/Users/n3rdartiste/Documents/development-projects/ai-code/src/routes/HomeLoanCalculator/ResultsSummary.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="17" count="11" type="stmt"/>
+    </file>
+  </project>
+</coverage>

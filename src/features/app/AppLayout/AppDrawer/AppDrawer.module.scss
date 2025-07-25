@@ -1,0 +1,65 @@
+.drawer {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(-100%);
+    visibility: hidden;
+    position: fixed;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+    box-shadow: 2px 0 24px 0 rgba(31, 41, 55, 0.15);
+    height: 100vh;
+    width: 320px;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    gap: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+
+    & > button {
+      align-self: flex-end;
+      background: none;
+      border: none;
+      font-size: 1.25rem;
+      color: #6366f1;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      transition: color 0.2s;
+      &:hover {
+        color: #4338ca;
+      }
+    }
+
+    nav {
+      width: 100%;
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        li {
+          a {
+            display: block;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            color: #3730a3;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+            &:hover, &:focus {
+              background: #6366f1;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .drawerOpen {
+    transform: translateX(0);
+    visibility: visible;
+  }

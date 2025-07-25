@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #6366f1 0%, #818cf8 100%);
+  color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 12px 0 rgba(31, 41, 55, 0.08);
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  min-height: 64px;
+
+  & > button {
+    background: #fff;
+    color: #6366f1;
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 4px 0 rgba(99, 102, 241, 0.08);
+    transition: background 0.2s, color 0.2s;
+    &:hover, &:focus {
+      background: #6366f1;
+      color: #fff;
+    }
+  }
+
+  h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    margin: 0;
+  }
+}

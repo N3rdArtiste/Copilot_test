@@ -1,0 +1,111 @@
+// HomeLoanEnquiry.module.scss
+// Styles for the main home loan enquiry container
+
+.container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 2rem 0;
+}
+
+.innerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.progressIndicator {
+  max-width: 42rem;
+  margin: 0 auto 2rem auto;
+}
+
+.progressSteps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.stepCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-weight: 600;
+  
+  &.active {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  &.inactive {
+    background-color: #d1d5db;
+    color: #6b7280;
+  }
+}
+
+.progressLine {
+  height: 0.25rem;
+  width: 4rem;
+  
+  &.completed {
+    background-color: #2563eb;
+  }
+  
+  &.incomplete {
+    background-color: #d1d5db;
+  }
+}
+
+// Page 2 placeholder styles
+.page2Container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.page2Title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.page2Description {
+  margin-bottom: 1rem;
+}
+
+.page2Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2PreviousButton {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  color: #374151;
+  background: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f9fafb;
+  }
+}
+
+.page2NextButton {
+  padding: 0.5rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1d4ed8;
+  }
+}
